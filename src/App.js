@@ -59,7 +59,7 @@ function App() {
         {!contactSelected ? (
           <>
             <Gallery currentCategory={currentCategory}></Gallery>
-            <About />
+            <About></About>
           </>
         ) : (
             <ContactForm></ContactForm>
